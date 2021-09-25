@@ -1,0 +1,35 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+   
+}
+.product-container{
+    border-right: 1px solid lightgray;
+    margin-left: 180px;
+    margin-right: 7px;
+}
+.cart-container{
+    text-align: center;
+}
+
+
+.search {
+    background-color: #222222;
+    padding: 20px;
+}
+
+.search input[type='text'] {
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.search ::placeholder {
+    font-size: 17px;
+}

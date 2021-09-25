@@ -1,0 +1,35 @@
+.logo img{
+    width: 300px;
+    
+}
+.logo{
+    text-align: center;
+    padding: 5px 0;
+}
+
+.navbar {
+    background-color: black;
+    line-height: 40px;
+    padding: 0 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    padding: 10px ;
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -ms-transition: .3s all ease;
+    -o-transition: .3s all ease;
+}
+.navbar a:hover {
+    background-color: lightgray;
+    color: black;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+

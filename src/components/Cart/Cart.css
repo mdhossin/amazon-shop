@@ -1,0 +1,39 @@
+table, td{
+
+    border-collapse: collapse;
+    /* padding: 0 10px 0 15px; */
+}
+td{
+    text-align: start;
+    padding: 0 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+}
+table{
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.cart .btn {
+    border: none;
+    padding: 6px 60px;
+    /* width: 150px; */
+    background-color: rgb(240, 193, 75);
+    border-radius: 5px;
+    border: 1px solid black;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -ms-transition: .3s all ease;
+    -o-transition: .3s all ease;
+}
+
+.btn:hover {
+    background-color: rgb(250, 180, 4);
+}
